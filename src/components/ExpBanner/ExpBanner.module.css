@@ -1,0 +1,28 @@
+.container{
+    background-color: #f56c6d;
+    padding:4rem 3rem;
+    display: flex;
+    gap: 8.8rem;
+    height: 13rem;
+    color: white;
+    justify-content: center;
+}
+.container>div{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.minContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.heading>span{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.number>span{
+    font-size:1.9rem;
+    font-weight: 500;
+}

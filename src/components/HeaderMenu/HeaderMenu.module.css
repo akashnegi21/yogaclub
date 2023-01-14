@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    padding: 2rem;  
+    justify-content:space-between ;
+
+}
+
+.container>ul{
+    display: flex;
+    align-items: center ;
+    list-style: none;
+    gap:2rem;
+    font-weight: 600;
+}
+.getStarted{
+    padding-right:2rem;
+    display: flex;
+    margin-right: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.getStarted>span{
+font-weight: bold;
+}

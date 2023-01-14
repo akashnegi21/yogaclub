@@ -1,0 +1,50 @@
+.testimonials{
+display: flex;
+padding: 2rem;
+padding-bottom: 3rem;
+align-items: center;
+flex-direction: column;
+}
+.main{
+   padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.testimonials>span:nth-of-type(1){
+  font-size: 1.4rem;
+  align-items: center;
+  
+}
+.testimonials>span:nth-of-type(2){
+  font-size: 3rem;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.363);
+  margin-bottom: 6rem;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3rem;
+  width: 55%;
+}
+.clentAvatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientAvatar>img {
+  border-radius: 50%;
+  align-items: center;
+}
+.clientName{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.clientReview{
+  padding-top: 1rem;
+  font-size: 1.3rem;
+ padding-bottom: 1rem;
+  width: 70%;
+}
